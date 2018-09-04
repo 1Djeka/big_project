@@ -1,0 +1,94 @@
+
+body {
+  background-color: grey;
+  transform: translate(-50%;-50%);
+  position: fixed;
+  top:30%;
+  left: 30%;
+  width: 500px;
+  height: 500px;
+}
+
+
+
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+.one {
+  
+  height: 400px;
+  width: 400px;
+  background-image: url(../2/400.png);
+  position: relative;
+  left: 15px;
+  top: 15px;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+.two {
+  height: 500px;
+  width: 500px;
+  background-image: url(../2/500.png);
+  position: relative;
+  left:250px;
+  bottom: 100px;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+
+}
+.three {
+  height: 150px;
+  width: 150px;
+  background-image: url(../2/150.png);
+  position: relative;
+  left: 650px;
+  bottom: 200px;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}
+.four {
+  height: 350px;
+  width: 350px;
+  background-image: url(../2/350.png);
+  position: relative;
+  left: 550px;
+  bottom: 1000px;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+
+}
+.five {
+  height: 600px;
+  width: 600px;
+  background-image: url(../2/600.png);
+  position: relative;
+  left: 730px;
+  bottom: 1100px;
+  animation-name: rotate;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 1s;
+}

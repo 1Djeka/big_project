@@ -1,0 +1,121 @@
+body {
+  background-color: #88bcfc;
+}
+.logo {
+ background-color: lightgrey;
+  width: 70%;
+  height: 4%;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  position: relative; 
+  top: 15px;
+  border: 1px solid grey;
+  }
+.reg{
+  display: block;
+  width: 25%;
+  height: 25px;
+  color: grey;
+ background-color: lightgrey;
+  position: relative;
+  top:45px;
+  padding: 15px; 
+  text-align:center;
+  left: 35px;
+  border: 1px solid grey;
+}
+a {
+  font-size: 20px;
+  text-align:center;
+  color:black;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  
+ }
+ a:active {
+  text-shadow: 0 0 25 grey;
+}
+
+
+  .opis {
+   position: relative;
+   bottom: 180px;
+   background-color: lightgrey;
+    width: 50%;
+   height: 50%;
+   left: 60px;
+    border: 1px solid grey;
+  }
+  .pa {
+    font-size: 30px;
+    text-align:left;
+    text-decoration:underline;
+    font-weight: normal;
+    color: black;
+  }
+  .opis2 {
+    /*text-decoration:underline;*/
+    font-size: 20px;
+    text-align:left;
+    line-height: 25px;
+    color: black;
+  }
+  .spi {
+    width: 300px;
+    height: 150px;
+    background-color: lightgrey;
+    position: relative;
+    bottom: 120px;
+    left: 60px;
+    border: 1px solid grey;z-index;
+    text-align: left;
+
+  }
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .help {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    background-color: lightgrey;
+    left: 700px;
+    bottom: 320px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 25px;
+    border: 1px solid grey;z-index;
+
+  }
+  h3 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  img {
+    position: relative;
+    height: 250px;
+    width: 350px;
+  background-size: cover;
+  left: 850px;
+   border: 1px solid grey;
+
+  }
+  @media screen and (min-width: 600px;) {
+
+  }
+  @media screen and (min-width: 960px;) {
+
+  }
+   @media screen and (min-width: 1264px) {
+
+   }
+    @media screen and (min-width:1904px){ 
+     }
+
+

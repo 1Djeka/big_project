@@ -1,0 +1,96 @@
+body {
+	background-color: #88bcfc;
+}
+.header-container {
+	
+  width: 50%;
+  height: 20px;
+  font-size: 15px;
+  color: black;
+
+  
+  position: relative; 
+  
+  left:9%;
+  top: 15px;
+  line-height: 10px;
+  
+
+}
+input, select, textarea {
+  display: block;
+  width: 30%;
+  height: 25px;
+  font-size: 18px;
+  border: 1px solid black;
+}
+.page {
+  position: relative;
+  left: 30px;
+  bottom: 270px;
+}
+fieldset {
+  border: 0px;
+}
+label, span{
+  line-height: 30px;
+  font-size: 18px;
+}
+label {
+  display: block;
+  line-height: 25px;
+}
+
+input [type="radio"], input[type="checkbox"]{
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
+}
+
+input [type="submit"] {
+  cursor: pointer;
+  height: 80px;
+}
+
+body {
+  width: 55%;
+  height: 600px;
+  border: 1px solid black;
+  margin:auto;
+  position: relative;
+  top: 40px;
+  box-shadow: 4px 5px 17px 0px rgba(53,48,23,0.62)
+}
+p {
+  font-size: 20px;
+  text-align:left;
+
+}
+.img {
+  width: 300px;
+  height: 300px;
+  background-image: url(../../img/pro.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 150px;
+
+ 
+ 
+  position: relative;
+  left: 40%;
+  top: 327px;
+}
+.but {
+  display: block;
+  position: relative;
+  left: 47%;
+  bottom: 30px;
+}
+.выб {
+  position: relative;
+  bottom: 25px;
+}
+.luk {
+  position: relative;
+  bottom: 25px;
+}
